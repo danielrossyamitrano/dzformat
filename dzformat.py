@@ -38,4 +38,4 @@ for line in txt.splitlines():
         a = idx + 1
     output_string += string + '\n'
 
-copy(bytes(output_string, encoding='utf-8'))
+copy(bytes(output_string, encoding='cp850'))
